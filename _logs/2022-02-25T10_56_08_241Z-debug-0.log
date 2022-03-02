@@ -1,0 +1,453 @@
+0 verbose cli [
+0 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+0 verbose cli   'C:\\Users\\my pc\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+0 verbose cli   'uninstall',
+0 verbose cli   'tailwind-scrollbar-hide'
+0 verbose cli ]
+1 info using npm@8.4.0
+2 info using node@v16.13.1
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 3ms
+5 timing config:load:file:C:\Users\my pc\AppData\Roaming\npm\node_modules\npm\npmrc Completed in 3ms
+6 timing config:load:builtin Completed in 4ms
+7 timing config:load:cli Completed in 4ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:C:\Users\my pc\Desktop\movieapp_with_tailwindcss\.npmrc Completed in 0ms
+10 timing config:load:project Completed in 2ms
+11 timing config:load:file:C:\Users\my pc\.npmrc Completed in 1ms
+12 timing config:load:user Completed in 2ms
+13 timing config:load:file:C:\Users\my pc\AppData\Roaming\npm\etc\npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:validate Completed in 1ms
+16 timing config:load:credentials Completed in 2ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 20ms
+19 timing npm:load:configload Completed in 20ms
+20 timing npm:load:setTitle Completed in 1ms
+21 timing config:load:flatten Completed in 6ms
+22 timing npm:load:display Completed in 10ms
+23 verbose logfile C:\Users\my pc\Desktop\movieapp_with_tailwindcss\_logs\2022-02-25T10_56_08_241Z-debug-0.log
+24 timing npm:load:logFile Completed in 20ms
+25 timing npm:load:timers Completed in 0ms
+26 timing npm:load:configScope Completed in 0ms
+27 timing npm:load Completed in 52ms
+28 timing arborist:ctor Completed in 1ms
+29 silly logfile start cleaning logs, removing 1 files
+30 timing idealTree:init Completed in 377ms
+31 timing idealTree:userRequests Completed in 2ms
+32 silly idealTree buildDeps
+33 timing idealTree:#root Completed in 0ms
+34 timing idealTree:buildDeps Completed in 2ms
+35 timing idealTree:fixDepFlags Completed in 4ms
+36 timing idealTree Completed in 395ms
+37 timing arborist:ctor Completed in 0ms
+38 timing reify:loadTrees Completed in 608ms
+39 timing reify:diffTrees Completed in 19ms
+40 silly reify mark retired [
+40 silly reify   'C:\\Users\\my pc\\Desktop\\movieapp_with_tailwindcss\\node_modules\\tailwind-scrollbar-hide'
+40 silly reify ]
+41 silly reify moves {
+41 silly reify   'C:\\Users\\my pc\\Desktop\\movieapp_with_tailwindcss\\node_modules\\tailwind-scrollbar-hide': 'C:\\Users\\my pc\\Desktop\\movieapp_with_tailwindcss\\node_modules\\.tailwind-scrollbar-hide-fjJFeil0'
+41 silly reify }
+42 timing reify:retireShallow Completed in 26ms
+43 timing reify:createSparse Completed in 15ms
+44 timing reify:loadBundles Completed in 0ms
+45 silly audit bulk request {
+45 silly audit   '@babel/code-frame': [ '7.16.7' ],
+45 silly audit   '@babel/helper-validator-identifier': [ '7.16.7' ],
+45 silly audit   '@babel/highlight': [ '7.16.10' ],
+45 silly audit   'ansi-styles': [ '3.2.1', '4.3.0' ],
+45 silly audit   chalk: [ '2.4.2', '4.1.2' ],
+45 silly audit   'color-convert': [ '1.9.3', '2.0.1' ],
+45 silly audit   'color-name': [ '1.1.3', '1.1.4' ],
+45 silly audit   'escape-string-regexp': [ '1.0.5', '4.0.0' ],
+45 silly audit   'has-flag': [ '3.0.0', '4.0.0' ],
+45 silly audit   'supports-color': [ '5.5.0', '7.2.0' ],
+45 silly audit   '@babel/runtime': [ '7.16.7' ],
+45 silly audit   '@babel/runtime-corejs3': [ '7.16.8' ],
+45 silly audit   '@emotion/hash': [ '0.8.0' ],
+45 silly audit   '@eslint/eslintrc': [ '1.0.5' ],
+45 silly audit   ignore: [ '4.0.6', '5.2.0' ],
+45 silly audit   '@humanwhocodes/config-array': [ '0.9.3' ],
+45 silly audit   '@humanwhocodes/object-schema': [ '1.2.1' ],
+45 silly audit   '@material-ui/core': [ '4.12.3' ],
+45 silly audit   '@material-ui/icons': [ '4.11.2' ],
+45 silly audit   '@material-ui/styles': [ '4.11.4' ],
+45 silly audit   '@material-ui/system': [ '4.12.1' ],
+45 silly audit   '@material-ui/types': [ '5.1.0' ],
+45 silly audit   '@material-ui/utils': [ '4.11.2' ],
+45 silly audit   '@next/env': [ '12.0.10' ],
+45 silly audit   '@next/eslint-plugin-next': [ '12.0.10' ],
+45 silly audit   '@next/swc-android-arm64': [ '12.0.10' ],
+45 silly audit   '@next/swc-darwin-arm64': [ '12.0.10' ],
+45 silly audit   '@next/swc-darwin-x64': [ '12.0.10' ],
+45 silly audit   '@next/swc-linux-arm-gnueabihf': [ '12.0.10' ],
+45 silly audit   '@next/swc-linux-arm64-gnu': [ '12.0.10' ],
+45 silly audit   '@next/swc-linux-arm64-musl': [ '12.0.10' ],
+45 silly audit   '@next/swc-linux-x64-gnu': [ '12.0.10' ],
+45 silly audit   '@next/swc-linux-x64-musl': [ '12.0.10' ],
+45 silly audit   '@next/swc-win32-arm64-msvc': [ '12.0.10' ],
+45 silly audit   '@next/swc-win32-ia32-msvc': [ '12.0.10' ],
+45 silly audit   '@next/swc-win32-x64-msvc': [ '12.0.10' ],
+45 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+45 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+45 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+45 silly audit   '@rushstack/eslint-patch': [ '1.1.0' ],
+45 silly audit   '@types/json5': [ '0.0.29' ],
+45 silly audit   '@types/parse-json': [ '4.0.0' ],
+45 silly audit   '@types/prop-types': [ '15.7.4' ],
+45 silly audit   '@types/react': [ '17.0.39' ],
+45 silly audit   '@types/react-transition-group': [ '4.4.4' ],
+45 silly audit   csstype: [ '3.0.10', '2.6.19' ],
+45 silly audit   '@types/scheduler': [ '0.16.2' ],
+45 silly audit   '@typescript-eslint/parser': [ '5.10.2' ],
+45 silly audit   '@typescript-eslint/scope-manager': [ '5.10.2' ],
+45 silly audit   '@typescript-eslint/types': [ '5.10.2' ],
+45 silly audit   '@typescript-eslint/typescript-estree': [ '5.10.2' ],
+45 silly audit   '@typescript-eslint/visitor-keys': [ '5.10.2' ],
+45 silly audit   acorn: [ '8.7.0', '7.4.1' ],
+45 silly audit   'acorn-jsx': [ '5.3.2' ],
+45 silly audit   'acorn-node': [ '1.8.2' ],
+45 silly audit   'acorn-walk': [ '7.2.0' ],
+45 silly audit   ajv: [ '6.12.6' ],
+45 silly audit   'ansi-regex': [ '5.0.1' ],
+45 silly audit   anymatch: [ '3.1.2' ],
+45 silly audit   arg: [ '5.0.1' ],
+45 silly audit   argparse: [ '2.0.1' ],
+45 silly audit   'aria-query': [ '4.2.2' ],
+45 silly audit   'array-includes': [ '3.1.4' ],
+45 silly audit   'array-union': [ '2.1.0' ],
+45 silly audit   'array.prototype.flat': [ '1.2.5' ],
+45 silly audit   'array.prototype.flatmap': [ '1.2.5' ],
+45 silly audit   'ast-types-flow': [ '0.0.7' ],
+45 silly audit   autoprefixer: [ '10.4.2' ],
+45 silly audit   'axe-core': [ '4.4.0' ],
+45 silly audit   'axobject-query': [ '2.2.0' ],
+45 silly audit   'balanced-match': [ '1.0.2' ],
+45 silly audit   'binary-extensions': [ '2.2.0' ],
+45 silly audit   'brace-expansion': [ '1.1.11' ],
+45 silly audit   braces: [ '3.0.2' ],
+45 silly audit   browserslist: [ '4.19.1' ],
+45 silly audit   'call-bind': [ '1.0.2' ],
+45 silly audit   callsites: [ '3.1.0' ],
+45 silly audit   'camelcase-css': [ '2.0.1' ],
+45 silly audit   'caniuse-lite': [ '1.0.30001305' ],
+45 silly audit   chokidar: [ '3.5.3' ],
+45 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+45 silly audit   clsx: [ '1.1.1' ],
+45 silly audit   'concat-map': [ '0.0.1' ],
+45 silly audit   'core-js-pure': [ '3.21.0' ],
+45 silly audit   cosmiconfig: [ '7.0.1' ],
+45 silly audit   'cross-spawn': [ '7.0.3' ],
+45 silly audit   'css-vendor': [ '2.0.8' ],
+45 silly audit   cssesc: [ '3.0.0' ],
+45 silly audit   'damerau-levenshtein': [ '1.0.8' ],
+45 silly audit   debug: [ '4.3.3', '3.2.7', '2.6.9' ],
+45 silly audit   'deep-is': [ '0.1.4' ],
+45 silly audit   'define-properties': [ '1.1.3' ],
+45 silly audit   defined: [ '1.0.0' ],
+45 silly audit   detective: [ '5.2.0' ],
+45 silly audit   didyoumean: [ '1.2.2' ],
+45 silly audit   'dir-glob': [ '3.0.1' ],
+45 silly audit   dlv: [ '1.1.3' ],
+45 silly audit   doctrine: [ '3.0.0', '2.1.0' ],
+45 silly audit   'dom-helpers': [ '5.2.1' ],
+45 silly audit   'electron-to-chromium': [ '1.4.71' ],
+45 silly audit   'emoji-regex': [ '9.2.2' ],
+45 silly audit   'error-ex': [ '1.3.2' ],
+45 silly audit   'es-abstract': [ '1.19.1' ],
+45 silly audit   'es-to-primitive': [ '1.2.1' ],
+45 silly audit   escalade: [ '3.1.1' ],
+45 silly audit   eslint: [ '8.8.0' ],
+45 silly audit   'eslint-config-next': [ '12.0.10' ],
+45 silly audit   'eslint-import-resolver-node': [ '0.3.6' ],
+45 silly audit   'eslint-import-resolver-typescript': [ '2.5.0' ],
+45 silly audit   'eslint-module-utils': [ '2.7.3' ],
+45 silly audit   'eslint-plugin-import': [ '2.25.4' ],
+45 silly audit   ms: [ '2.0.0', '2.1.2' ],
+45 silly audit   'eslint-plugin-jsx-a11y': [ '6.5.1' ],
+45 silly audit   'eslint-plugin-react': [ '7.28.0' ],
+45 silly audit   'eslint-plugin-react-hooks': [ '4.3.0' ],
+45 silly audit   resolve: [ '2.0.0-next.3', '1.22.0' ],
+45 silly audit   semver: [ '6.3.0', '7.3.5' ],
+45 silly audit   'eslint-scope': [ '7.1.0' ],
+45 silly audit   'eslint-utils': [ '3.0.0' ],
+45 silly audit   'eslint-visitor-keys': [ '2.1.0', '3.2.0' ],
+45 silly audit   espree: [ '9.3.0' ],
+45 silly audit   esquery: [ '1.4.0' ],
+45 silly audit   esrecurse: [ '4.3.0' ],
+45 silly audit   estraverse: [ '5.3.0' ],
+45 silly audit   esutils: [ '2.0.3' ],
+45 silly audit   'fast-deep-equal': [ '3.1.3' ],
+45 silly audit   'fast-glob': [ '3.2.11' ],
+45 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+45 silly audit   'fast-levenshtein': [ '2.0.6' ],
+45 silly audit   fastq: [ '1.13.0' ],
+45 silly audit   'file-entry-cache': [ '6.0.1' ],
+45 silly audit   'fill-range': [ '7.0.1' ],
+45 silly audit   'find-up': [ '2.1.0' ],
+45 silly audit   'flat-cache': [ '3.0.4' ],
+45 silly audit   flatted: [ '3.2.5' ],
+45 silly audit   'fraction.js': [ '4.1.3' ],
+45 silly audit   'fs.realpath': [ '1.0.0' ],
+45 silly audit   fsevents: [ '2.3.2' ],
+45 silly audit   'function-bind': [ '1.1.1' ],
+45 silly audit   'functional-red-black-tree': [ '1.0.1' ],
+45 silly audit   'get-intrinsic': [ '1.1.1' ],
+45 silly audit   'get-symbol-description': [ '1.0.0' ],
+45 silly audit   glob: [ '7.1.7' ],
+45 silly audit   globals: [ '13.12.0' ],
+45 silly audit   globby: [ '11.1.0' ],
+45 silly audit   has: [ '1.0.3' ],
+45 silly audit   'has-bigints': [ '1.0.1' ],
+45 silly audit   'has-symbols': [ '1.0.2' ],
+45 silly audit   'has-tostringtag': [ '1.0.0' ],
+45 silly audit   'hoist-non-react-statics': [ '3.3.2' ],
+45 silly audit   'hyphenate-style-name': [ '1.0.4' ],
+45 silly audit   'import-fresh': [ '3.3.0' ],
+45 silly audit   imurmurhash: [ '0.1.4' ],
+45 silly audit   inflight: [ '1.0.6' ],
+45 silly audit   inherits: [ '2.0.4' ],
+45 silly audit   'internal-slot': [ '1.0.3' ],
+45 silly audit   'is-arrayish': [ '0.2.1' ],
+45 silly audit   'is-bigint': [ '1.0.4' ],
+45 silly audit   'is-binary-path': [ '2.1.0' ],
+45 silly audit   'is-boolean-object': [ '1.1.2' ],
+45 silly audit   'is-callable': [ '1.2.4' ],
+45 silly audit   'is-core-module': [ '2.8.1' ],
+45 silly audit   'is-date-object': [ '1.0.5' ],
+45 silly audit   'is-extglob': [ '2.1.1' ],
+45 silly audit   'is-glob': [ '4.0.3' ],
+45 silly audit   'is-in-browser': [ '1.1.3' ],
+45 silly audit   'is-negative-zero': [ '2.0.2' ],
+45 silly audit   'is-number': [ '7.0.0' ],
+45 silly audit   'is-number-object': [ '1.0.6' ],
+45 silly audit   'is-regex': [ '1.1.4' ],
+45 silly audit   'is-shared-array-buffer': [ '1.0.1' ],
+45 silly audit   'is-string': [ '1.0.7' ],
+45 silly audit   'is-symbol': [ '1.0.4' ],
+45 silly audit   'is-weakref': [ '1.0.2' ],
+45 silly audit   isexe: [ '2.0.0' ],
+45 silly audit   'js-tokens': [ '4.0.0' ],
+45 silly audit   'js-yaml': [ '4.1.0' ],
+45 silly audit   'json-parse-even-better-errors': [ '2.3.1' ],
+45 silly audit   'json-schema-traverse': [ '0.4.1' ],
+45 silly audit   'json-stable-stringify-without-jsonify': [ '1.0.1' ],
+45 silly audit   json5: [ '1.0.1' ],
+45 silly audit   jss: [ '10.9.0' ],
+45 silly audit   'jss-plugin-camel-case': [ '10.9.0' ],
+45 silly audit   'jss-plugin-default-unit': [ '10.9.0' ],
+45 silly audit   'jss-plugin-global': [ '10.9.0' ],
+45 silly audit   'jss-plugin-nested': [ '10.9.0' ],
+45 silly audit   'jss-plugin-props-sort': [ '10.9.0' ],
+45 silly audit   'jss-plugin-rule-value-function': [ '10.9.0' ],
+45 silly audit   'jss-plugin-vendor-prefixer': [ '10.9.0' ],
+45 silly audit   'jsx-ast-utils': [ '3.2.1' ],
+45 silly audit   'language-subtag-registry': [ '0.3.21' ],
+45 silly audit   'language-tags': [ '1.0.5' ],
+45 silly audit   levn: [ '0.4.1' ],
+45 silly audit   lilconfig: [ '2.0.4' ],
+45 silly audit   'lines-and-columns': [ '1.2.4' ],
+45 silly audit   'locate-path': [ '2.0.0' ],
+45 silly audit   'lodash.merge': [ '4.6.2' ],
+45 silly audit   'loose-envify': [ '1.4.0' ],
+45 silly audit   'lru-cache': [ '6.0.0' ],
+45 silly audit   merge2: [ '1.4.1' ],
+45 silly audit   micromatch: [ '4.0.4' ],
+45 silly audit   minimatch: [ '3.0.4' ],
+45 silly audit   minimist: [ '1.2.5' ],
+45 silly audit   nanoid: [ '3.2.0' ],
+45 silly audit   'natural-compare': [ '1.4.0' ],
+45 silly audit   next: [ '12.0.10' ],
+45 silly audit   postcss: [ '8.4.5', '8.4.6' ],
+45 silly audit   'node-releases': [ '2.0.2' ],
+45 silly audit   'normalize-path': [ '3.0.0' ],
+45 silly audit   'normalize-range': [ '0.1.2' ],
+45 silly audit   'object-assign': [ '4.1.1' ],
+45 silly audit   'object-hash': [ '2.2.0' ],
+45 silly audit   'object-inspect': [ '1.12.0' ],
+45 silly audit   'object-keys': [ '1.1.1' ],
+45 silly audit   'object.assign': [ '4.1.2' ],
+45 silly audit   'object.entries': [ '1.1.5' ],
+45 silly audit   'object.fromentries': [ '2.0.5' ],
+45 silly audit   'object.hasown': [ '1.1.0' ],
+45 silly audit   'object.values': [ '1.1.5' ],
+45 silly audit   once: [ '1.4.0' ],
+45 silly audit   optionator: [ '0.9.1' ],
+45 silly audit   'p-limit': [ '1.3.0' ],
+45 silly audit   'p-locate': [ '2.0.0' ],
+45 silly audit   'p-try': [ '1.0.0' ],
+45 silly audit   'parent-module': [ '1.0.1' ],
+45 silly audit   'parse-json': [ '5.2.0' ],
+45 silly audit   'path-exists': [ '3.0.0' ],
+45 silly audit   'path-is-absolute': [ '1.0.1' ],
+45 silly audit   'path-key': [ '3.1.1' ],
+45 silly audit   'path-parse': [ '1.0.7' ],
+45 silly audit   'path-type': [ '4.0.0' ],
+45 silly audit   picocolors: [ '1.0.0' ],
+45 silly audit   picomatch: [ '2.3.1' ],
+45 silly audit   'popper.js': [ '1.16.1-lts' ],
+45 silly audit   'postcss-js': [ '4.0.0' ],
+45 silly audit   'postcss-load-config': [ '3.1.3' ],
+45 silly audit   'postcss-nested': [ '5.0.6' ],
+45 silly audit   'postcss-selector-parser': [ '6.0.9' ],
+45 silly audit   'postcss-value-parser': [ '4.2.0' ],
+45 silly audit   'prelude-ls': [ '1.2.1' ],
+45 silly audit   'prop-types': [ '15.8.1' ],
+45 silly audit   punycode: [ '2.1.1' ],
+45 silly audit   'queue-microtask': [ '1.2.3' ],
+45 silly audit   'quick-lru': [ '5.1.1' ],
+45 silly audit   react: [ '17.0.2' ],
+45 silly audit   'react-dom': [ '17.0.2' ],
+45 silly audit   'react-is': [ '16.13.1' ],
+45 silly audit   'react-transition-group': [ '4.4.2' ],
+45 silly audit   readdirp: [ '3.6.0' ],
+45 silly audit   'regenerator-runtime': [ '0.13.9' ],
+45 silly audit   'regexp.prototype.flags': [ '1.4.1' ],
+45 silly audit   regexpp: [ '3.2.0' ],
+45 silly audit   'resolve-from': [ '4.0.0' ],
+45 silly audit   reusify: [ '1.0.4' ],
+45 silly audit   rimraf: [ '3.0.2' ],
+45 silly audit   'run-parallel': [ '1.2.0' ],
+45 silly audit   scheduler: [ '0.20.2' ],
+45 silly audit   'shebang-command': [ '2.0.0' ],
+45 silly audit   'shebang-regex': [ '3.0.0' ],
+45 silly audit   'side-channel': [ '1.0.4' ],
+45 silly audit   slash: [ '3.0.0' ],
+45 silly audit   'source-map-js': [ '1.0.2' ],
+45 silly audit   'string.prototype.matchall': [ '4.0.6' ],
+45 silly audit   'string.prototype.trimend': [ '1.0.4' ],
+45 silly audit   'string.prototype.trimstart': [ '1.0.4' ],
+45 silly audit   'strip-ansi': [ '6.0.1' ],
+45 silly audit   'strip-bom': [ '3.0.0' ],
+45 silly audit   'strip-json-comments': [ '3.1.1' ],
+45 silly audit   'styled-jsx': [ '5.0.0' ],
+45 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+45 silly audit   tailwindcss: [ '3.0.23' ],
+45 silly audit   'text-table': [ '0.2.0' ],
+45 silly audit   'tiny-warning': [ '1.0.3' ],
+45 silly audit   'to-regex-range': [ '5.0.1' ],
+45 silly audit   'tsconfig-paths': [ '3.12.0' ],
+45 silly audit   tslib: [ '1.14.1' ],
+45 silly audit   tsutils: [ '3.21.0' ],
+45 silly audit   'type-check': [ '0.4.0' ],
+45 silly audit   'type-fest': [ '0.20.2' ],
+45 silly audit   typescript: [ '4.5.5' ],
+45 silly audit   'unbox-primitive': [ '1.0.1' ],
+45 silly audit   'uri-js': [ '4.4.1' ],
+45 silly audit   'use-subscription': [ '1.5.1' ],
+45 silly audit   'util-deprecate': [ '1.0.2' ],
+45 silly audit   'v8-compile-cache': [ '2.3.0' ],
+45 silly audit   which: [ '2.0.2' ],
+45 silly audit   'which-boxed-primitive': [ '1.0.2' ],
+45 silly audit   'word-wrap': [ '1.2.3' ],
+45 silly audit   wrappy: [ '1.0.2' ],
+45 silly audit   xtend: [ '4.0.2' ],
+45 silly audit   yallist: [ '4.0.0' ],
+45 silly audit   yaml: [ '1.10.2' ]
+45 silly audit }
+46 verbose reify failed optional dependency C:\Users\my pc\Desktop\movieapp_with_tailwindcss\node_modules\fsevents
+47 silly reify mark deleted [
+47 silly reify   'C:\\Users\\my pc\\Desktop\\movieapp_with_tailwindcss\\node_modules\\fsevents'
+47 silly reify ]
+48 verbose reify failed optional dependency C:\Users\my pc\Desktop\movieapp_with_tailwindcss\node_modules\@next\swc-win32-ia32-msvc
+49 silly reify mark deleted [
+49 silly reify   'C:\\Users\\my pc\\Desktop\\movieapp_with_tailwindcss\\node_modules\\@next\\swc-win32-ia32-msvc'
+49 silly reify ]
+50 verbose reify failed optional dependency C:\Users\my pc\Desktop\movieapp_with_tailwindcss\node_modules\@next\swc-win32-arm64-msvc
+51 silly reify mark deleted [
+51 silly reify   'C:\\Users\\my pc\\Desktop\\movieapp_with_tailwindcss\\node_modules\\@next\\swc-win32-arm64-msvc'
+51 silly reify ]
+52 verbose reify failed optional dependency C:\Users\my pc\Desktop\movieapp_with_tailwindcss\node_modules\@next\swc-linux-x64-musl
+53 silly reify mark deleted [
+53 silly reify   'C:\\Users\\my pc\\Desktop\\movieapp_with_tailwindcss\\node_modules\\@next\\swc-linux-x64-musl'
+53 silly reify ]
+54 verbose reify failed optional dependency C:\Users\my pc\Desktop\movieapp_with_tailwindcss\node_modules\@next\swc-linux-x64-gnu
+55 silly reify mark deleted [
+55 silly reify   'C:\\Users\\my pc\\Desktop\\movieapp_with_tailwindcss\\node_modules\\@next\\swc-linux-x64-gnu'
+55 silly reify ]
+56 verbose reify failed optional dependency C:\Users\my pc\Desktop\movieapp_with_tailwindcss\node_modules\@next\swc-linux-arm64-musl
+57 silly reify mark deleted [
+57 silly reify   'C:\\Users\\my pc\\Desktop\\movieapp_with_tailwindcss\\node_modules\\@next\\swc-linux-arm64-musl'
+57 silly reify ]
+58 verbose reify failed optional dependency C:\Users\my pc\Desktop\movieapp_with_tailwindcss\node_modules\@next\swc-linux-arm64-gnu
+59 silly reify mark deleted [
+59 silly reify   'C:\\Users\\my pc\\Desktop\\movieapp_with_tailwindcss\\node_modules\\@next\\swc-linux-arm64-gnu'
+59 silly reify ]
+60 verbose reify failed optional dependency C:\Users\my pc\Desktop\movieapp_with_tailwindcss\node_modules\@next\swc-linux-arm-gnueabihf
+61 silly reify mark deleted [
+61 silly reify   'C:\\Users\\my pc\\Desktop\\movieapp_with_tailwindcss\\node_modules\\@next\\swc-linux-arm-gnueabihf'
+61 silly reify ]
+62 verbose reify failed optional dependency C:\Users\my pc\Desktop\movieapp_with_tailwindcss\node_modules\@next\swc-darwin-x64
+63 silly reify mark deleted [
+63 silly reify   'C:\\Users\\my pc\\Desktop\\movieapp_with_tailwindcss\\node_modules\\@next\\swc-darwin-x64'
+63 silly reify ]
+64 verbose reify failed optional dependency C:\Users\my pc\Desktop\movieapp_with_tailwindcss\node_modules\@next\swc-darwin-arm64
+65 silly reify mark deleted [
+65 silly reify   'C:\\Users\\my pc\\Desktop\\movieapp_with_tailwindcss\\node_modules\\@next\\swc-darwin-arm64'
+65 silly reify ]
+66 verbose reify failed optional dependency C:\Users\my pc\Desktop\movieapp_with_tailwindcss\node_modules\@next\swc-android-arm64
+67 silly reify mark deleted [
+67 silly reify   'C:\\Users\\my pc\\Desktop\\movieapp_with_tailwindcss\\node_modules\\@next\\swc-android-arm64'
+67 silly reify ]
+68 timing reifyNode:node_modules/fsevents Completed in 63ms
+69 timing reifyNode:node_modules/@next/swc-win32-ia32-msvc Completed in 62ms
+70 timing reifyNode:node_modules/@next/swc-win32-arm64-msvc Completed in 62ms
+71 timing reifyNode:node_modules/@next/swc-linux-x64-musl Completed in 62ms
+72 timing reifyNode:node_modules/@next/swc-linux-x64-gnu Completed in 61ms
+73 timing reifyNode:node_modules/@next/swc-linux-arm64-musl Completed in 62ms
+74 timing reifyNode:node_modules/@next/swc-linux-arm64-gnu Completed in 62ms
+75 timing reifyNode:node_modules/@next/swc-linux-arm-gnueabihf Completed in 61ms
+76 timing reifyNode:node_modules/@next/swc-darwin-x64 Completed in 61ms
+77 timing reifyNode:node_modules/@next/swc-darwin-arm64 Completed in 61ms
+78 timing reifyNode:node_modules/@next/swc-android-arm64 Completed in 60ms
+79 timing reify:unpack Completed in 64ms
+80 timing reify:unretire Completed in 1ms
+81 timing build:queue Completed in 20ms
+82 timing build:deps Completed in 22ms
+83 timing build Completed in 22ms
+84 timing reify:build Completed in 24ms
+85 timing reify:trash Completed in 12ms
+86 timing reify:save Completed in 182ms
+87 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 980ms
+88 timing auditReport:getReport Completed in 993ms
+89 silly audit report {
+89 silly audit report   next: [
+89 silly audit report     {
+89 silly audit report       id: 1007032,
+89 silly audit report       url: 'https://github.com/advisories/GHSA-fmvm-x8mv-47mj',
+89 silly audit report       title: 'Improper CSP in Image Optimization API for Next.js versions between 10.0.0 and 12.1.0',
+89 silly audit report       severity: 'moderate',
+89 silly audit report       vulnerable_versions: '>=10.0.0 <12.1.0'
+89 silly audit report     }
+89 silly audit report   ]
+89 silly audit report }
+90 timing metavuln:cache:get:security-advisory:next:3Lb1sazrxsSPvsi35vt0roMHi0YPXfrm2SLowep5JfNAiA2hlK+AF7CMNghdQQMEYaUVNaup5VBUR/+EthYmDw== Completed in 155ms
+91 http fetch GET 200 https://registry.npmjs.org/next 348ms (cache hit)
+92 timing metavuln:packument:next Completed in 540ms
+93 timing metavuln:load:security-advisory:next:1007032 Completed in 95ms
+94 timing metavuln:calculate:security-advisory:next:1007032 Completed in 636ms
+95 timing metavuln:cache:get:security-advisory:eslint-config-next:0CQhD4LLmJSJeFN7aXbgAN0JckqzOhlQ78OvrtD8goEbGhNbxYBZZIijUYZvKy9SIXq94TJRpiClUiQzU2S5bw== Completed in 72ms
+96 http fetch GET 200 https://registry.npmjs.org/eslint-config-next 239ms (cache revalidated)
+97 timing metavuln:packument:eslint-config-next Completed in 255ms
+98 timing metavuln:load:security-advisory:eslint-config-next:3Lb1sazrxsSPvsi35vt0roMHi0YPXfrm2SLowep5JfNAiA2hlK+AF7CMNghdQQMEYaUVNaup5VBUR/+EthYmDw== Completed in 6ms
+99 timing metavuln:calculate:security-advisory:eslint-config-next:3Lb1sazrxsSPvsi35vt0roMHi0YPXfrm2SLowep5JfNAiA2hlK+AF7CMNghdQQMEYaUVNaup5VBUR/+EthYmDw== Completed in 262ms
+100 timing auditReport:init Completed in 936ms
+101 timing reify:audit Completed in 1931ms
+102 timing reify Completed in 2622ms
+103 silly ADD
+104 silly ADD
+105 silly ADD
+106 silly ADD
+107 silly ADD
+108 silly ADD
+109 silly ADD
+110 silly ADD
+111 silly ADD
+112 silly ADD
+113 silly ADD
+114 silly REMOVE node_modules/tailwind-scrollbar-hide
+115 timing command:uninstall Completed in 2754ms
+116 verbose exit 0
+117 timing npm Completed in 3402ms
+118 info ok
